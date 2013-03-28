@@ -1,0 +1,26 @@
+/*
+Theme Name: Yo contribuyente
+Theme URI: http://www.spaceshiplabs.com
+Description: Custom Theme for #yoContribuyente 
+Author: spaceshiplabs
+Author URI: http://spaceshiplabs.com/
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: imcoyocontribuyente
+*/
+
+@import url('stylemobilePhone.css');
+
+#header .logo{text-align: left;float:left;width:50%;}
+#header .logo img{width:100%;}
+#header h2{font-size: 1.4em;}
+#header h3{font-size: 1.4em;padding: 1.7em 0 0 0;}
+
+.content .cap + h2{font-size: 1.5em;}
+.content input[type='submit']{padding: 5px 5%;}
+
+
+#footer ul li img{width:10%;}
+#footer ul li a{line-height: 1.9em;font-size: 1.5em;}
+#footer ul li span{float:right;font-size: .7em;text-decoration:underline;}

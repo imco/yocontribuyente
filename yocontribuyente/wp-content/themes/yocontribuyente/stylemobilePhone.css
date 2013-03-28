@@ -1,0 +1,61 @@
+/*
+Theme Name: Yo contribuyente
+Theme URI: http://www.spaceshiplabs.com
+Description: Custom Theme for #yoContribuyente 
+Author: spaceshiplabs
+Author URI: http://spaceshiplabs.com/
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: imcoyocontribuyente
+*/
+
+@import url('css/reset.css');
+@import url('css/stickyFooter.css');
+body{font-family:'Lato',arial,sans-serif;background-color:background:#F8F4EB;background-image:url('img/texture_crema.png'), url('img/texturecream.jpg');width:100%;height:100%;}
+h1,h2,h3{font-weight:bold;font-family:'Open Sans',sans-serif;}
+
+.clear{clear:both;}
+.hidden{display:none;}
+.container{padding:15px;}
+strong{font-weight:bold;}
+
+#header{background:#4A4A4A url(img/texture.jpg);}/*height: 185px;*/
+#header .logo{position: relative;display: block;text-align: center;}
+#header .logo img{width:70%;}
+#header h2{font-size:22px;color:white;text-align:center;font-size:1.8em;font-size:1.2em;}
+#header h3{font-size:19px;color:#1FC6A1;float:right;font-weight:normal;font-size: 1em;position:relative}
+#header h3 img{width:2em;position: absolute;left: -2em;}
+/*background:transparent url(phone_imgs/twittera.png) no-repeat 1px -3px;padding-left:45px;*/
+
+#main{padding:0;}
+#wrap{min-height:100px!important;height:auto!important;}
+
+.content{padding:15px;background-color:#106668;box-shadow: 0 -8px 30px -10px black inset;}
+.content .cap{position:relative;float:left;width:80px;height:80px;background:#106668;border-radius: 50px;margin-top: -30px;font-size: 1.5em;margin-right: 8px;width: 3em;height: 3.5em;}
+.content .cap img{width:100%;}
+.content .cap + h2{color: white;font-size: 1.1em;top: -10px;position: relative;}
+.content .cap + h2 a{font-weight:normal;}
+.content input[type='text']{background:#E7EDEB;color:#7C7C7C;width:90%;padding:7px 5%;border:0 none;margin-bottom:10px;font-size: 20px;font-size: 1.3em;}
+.content input[name='cp_input']{width:40%;}
+.content input[type='submit']{width:46%;float:right;padding:10px 5%;background:#32C59E;border-radius:5px;border:0 none;font-size: 32px;color: white;font-style: italic;font-size:1.6em;}
+
+.content .forminset{display: block;width: 365px;height: 132px;margin: 0 auto;}
+.content .float-right{float:right;width:50%;text-align: center;font-size: 3.3em;padding: .7em 0;display: none;}
+.content .float-right h3{font-size: 42px;line-height: 107px;font-style: italic;color:#B0C3C4;font-size: .5em;line-height:1.2em;}
+/*background:transparent url(phone_imgs/dividinga.png) no-repeat center 80px;*/
+.content .float-right h3 img{width:100%;}
+
+.content .float-left{float:left;width:50%;text-align: center;color:#B0C3C4;margin-top: -15px;}
+.content .float-left h2{font-size: 55px;line-height: 90px;font-size: 3em;line-height: 1.5em;}
+.content .float-left h3{position: relative;top: 16px;font-size: 15px;font-style: italic;font-size: 1em;}
+.content .float-left h2 .green{font-size: 80px;top: 2px;position: relative;color: #32C59E;font-size: 1.5em;}
+.content .floatWidth{float:left;width:100%;}
+
+#footer{height:auto;margin:0;}
+#footer ul li img{float:left;margin-right:15px;width: 20%;}
+#footer ul li{padding:15px 25px;min-height: 4.8em;}
+#footer ul li + li{box-shadow: 0 -10px 20px #C4C2BA;}
+#footer ul li a{color:black;font-size:21px;position: relative;width: 100%;display: block;line-height: 25px;height: 100%;float: left;font-size: 1.2em;}
+#footer ul li ul li{padding:0;min-height: auto;box-shadow:none!important;padding-bottom: 10px;}
+#footer ul li .contentText{position:relative;overflow:hidden;height:0;width: 100%;}
